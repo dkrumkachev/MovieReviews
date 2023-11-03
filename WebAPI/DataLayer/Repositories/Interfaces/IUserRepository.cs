@@ -1,6 +1,6 @@
 ﻿using DataLayer.Models;
 
-namespace DataLayer.Repositories.Contracts
+namespace DataLayer.Repositories.Interfaces
 {
 	public interface IUserRepository : IBaseRepository<User>
 	{

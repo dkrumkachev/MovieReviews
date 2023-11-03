@@ -1,4 +1,4 @@
-﻿using DataLayer.Repositories.Contracts;
+﻿using DataLayer.Repositories.Interfaces;
 
 namespace DataLayer.Repositories.UnitOfWork
 {

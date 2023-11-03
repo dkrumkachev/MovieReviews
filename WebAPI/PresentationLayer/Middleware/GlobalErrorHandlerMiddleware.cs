@@ -3,7 +3,7 @@ using FluentValidation;
 using System.Net;
 using PresentationLayer.ErrorModel;
 
-namespace PresentationLayer.Middleware
+namespace ControllerLayer.Middleware
 {
 	public class GlobalErrorHandlerMiddleware
 	{

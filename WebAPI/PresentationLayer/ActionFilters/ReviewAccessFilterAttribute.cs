@@ -1,10 +1,10 @@
 ﻿using BusinessLayer.Constants;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Security.Claims;
 
-namespace PresentationLayer.ActionFilters
+namespace ControllerLayer.ActionFilters
 {
 	public class ReviewAccessFilterAttribute : IActionFilter
 	{

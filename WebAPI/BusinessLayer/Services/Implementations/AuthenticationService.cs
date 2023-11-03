@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using BusinessLayer.Exceptions;
 using BusinessLayer.Models.User;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
 using DataLayer.Repositories.UnitOfWork;
 
 namespace BusinessLayer.Services.Implementations

@@ -1,5 +1,5 @@
 ﻿using BusinessLayer.Exceptions;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
 using Microsoft.Extensions.Configuration;
 
 namespace BusinessLayer.Services.Implementations

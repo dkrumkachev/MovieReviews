@@ -1,6 +1,6 @@
-﻿using DataLayer.Repositories.Contracts;
-using DataLayer.Data;
+﻿using DataLayer.Data;
 using DataLayer.Repositories.Implementations;
+using DataLayer.Repositories.Interfaces;
 
 namespace DataLayer.Repositories.UnitOfWork
 {

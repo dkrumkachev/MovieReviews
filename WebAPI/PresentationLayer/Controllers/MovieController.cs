@@ -1,11 +1,11 @@
 ﻿using BusinessLayer.Constants;
 using BusinessLayer.Models.Movie;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
+using ControllerLayer.ActionFilters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PresentationLayer.ActionFilters;
 
-namespace PresentationLayer.Controllers
+namespace ControllerLayer.Controllers
 {
 	/// <summary>
 	/// API controller for managing movies-related operations.

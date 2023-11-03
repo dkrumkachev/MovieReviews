@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DataLayer.Models;
 using DataLayer.Data;
-using DataLayer.Repositories.Contracts;
+using DataLayer.Repositories.Interfaces;
 
 namespace DataLayer.Repositories.Implementations
 {

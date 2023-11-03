@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using BusinessLayer.Exceptions;
 using BusinessLayer.Models.Movie;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
 using DataLayer.Models;
 using DataLayer.Repositories.UnitOfWork;
 

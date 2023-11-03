@@ -1,4 +1,4 @@
-﻿namespace BusinessLayer.Services.Contracts
+﻿namespace BusinessLayer.Services.Interfaces
 {
 	public interface IPasswordService
 	{

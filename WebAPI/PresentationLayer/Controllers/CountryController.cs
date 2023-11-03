@@ -1,11 +1,11 @@
 ﻿using BusinessLayer.Models.Country;
-using BusinessLayer.Services.Contracts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using BusinessLayer.Constants;
-using PresentationLayer.ActionFilters;
+using ControllerLayer.ActionFilters;
+using BusinessLayer.Services.Interfaces;
 
-namespace PresentationLayer.Controllers
+namespace ControllerLayer.Controllers
 {
 	/// <summary>
 	/// API controller for managing countries-related operations.

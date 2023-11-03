@@ -1,6 +1,6 @@
 ﻿using BusinessLayer.Models.Country;
 
-namespace BusinessLayer.Services.Contracts
+namespace BusinessLayer.Services.Interfaces
 {
 	public interface ICountryService
 	{

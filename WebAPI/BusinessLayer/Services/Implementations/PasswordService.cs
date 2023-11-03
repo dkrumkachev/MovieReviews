@@ -1,4 +1,4 @@
-﻿using BusinessLayer.Services.Contracts;
+﻿using BusinessLayer.Services.Interfaces;
 using System.Security.Cryptography;
 
 namespace BusinessLayer.Services.Implementations

@@ -1,6 +1,6 @@
 ﻿using BusinessLayer.Constants;
 using BusinessLayer.Models.User;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

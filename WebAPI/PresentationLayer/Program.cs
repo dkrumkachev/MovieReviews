@@ -1,5 +1,5 @@
-using PresentationLayer.Extensions;
-using PresentationLayer.Middleware;
+using ControllerLayer.Extensions;
+using ControllerLayer.Middleware;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);

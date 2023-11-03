@@ -1,6 +1,6 @@
 ﻿using DataLayer.Data;
 using DataLayer.Models;
-using DataLayer.Repositories.Contracts;
+using DataLayer.Repositories.Interfaces;
 
 namespace DataLayer.Repositories.Implementations
 {

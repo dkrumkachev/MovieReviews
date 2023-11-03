@@ -1,7 +1,7 @@
 ﻿using BusinessLayer.Models.User;
 using DataLayer.Models;
 
-namespace BusinessLayer.Services.Contracts
+namespace BusinessLayer.Services.Interfaces
 {
 	public interface IUserService
 	{

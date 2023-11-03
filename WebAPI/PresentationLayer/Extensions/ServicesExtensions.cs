@@ -1,7 +1,8 @@
 ﻿using BusinessLayer.Infrastructure.Mapper;
 using BusinessLayer.Infrastructure.Validators.Movie;
-using BusinessLayer.Services.Contracts;
 using BusinessLayer.Services.Implementations;
+using BusinessLayer.Services.Interfaces;
+using ControllerLayer.ActionFilters;
 using DataLayer.Data;
 using DataLayer.Repositories.UnitOfWork;
 using FluentValidation;
@@ -9,12 +10,11 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using PresentationLayer.ActionFilters;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
 using System.Reflection;
 using System.Text;
 
-namespace PresentationLayer.Extensions
+namespace ControllerLayer.Extensions
 {
 	public static class ServicesExtensions
 	{

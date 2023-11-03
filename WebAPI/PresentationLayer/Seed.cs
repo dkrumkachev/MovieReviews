@@ -2,7 +2,7 @@
 using DataLayer.Data;
 using DataLayer.Models;
 
-namespace PresentationLayer
+namespace ControllerLayer
 {
 	public class Seed
 	{

@@ -1,12 +1,12 @@
 ﻿using BusinessLayer.Constants;
 using BusinessLayer.Models.Review;
-using BusinessLayer.Services.Contracts;
+using BusinessLayer.Services.Interfaces;
+using ControllerLayer.ActionFilters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PresentationLayer.ActionFilters;
 using System.Security.Claims;
 
-namespace PresentationLayer.Controllers
+namespace ControllerLayer.Controllers
 {
 	/// <summary>
 	/// API controller for managing reviews-related operations.
