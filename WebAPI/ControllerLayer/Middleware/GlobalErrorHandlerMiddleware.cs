@@ -1,7 +1,7 @@
 ﻿using BusinessLayer.Exceptions;
 using FluentValidation;
 using System.Net;
-using PresentationLayer.ErrorModel;
+using ControllerLayer.ErrorModel;
 
 namespace ControllerLayer.Middleware
 {
